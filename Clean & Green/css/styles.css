@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* IniTial Styling Important  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+/* Navbar Styling  */
+.navbar {
+  background-color: black !important;
+  margin: 0;
+  padding: 1rem 0rem;
+  transition: 0.6s ease;
+}
+.navbar.active {
+  background-color: white !important;
+  padding: 0.4rem 0rem;
+}
+.navbar.active ul li a {
+  color: black !important;
+}
+.navbar.active .dropdown-menu a {
+  color: white !important;
+}
+.navbar .navbar-brand img {
+  width: 200px;
+  height: 45px;
+  transform: translateX(25px);
+}
+.navbar ul li {
+  padding: 0rem 1rem;
+}
+.navbar ul li a {
+  font-size: 15px;
+  color: white !important;
+}
+.navbar ul li a:hover {
+  transform: scale(1.07);
+  transition: 0.5s ease;
+}
+.navbar .signup {
+  background-color: #5fcf80;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.navbar .signup:hover {
+  transform: scale(0.95);
+}
+.navbar .signup:focus {
+  outline: none;
+}
+.navbar .signup a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+/* Navbar Ended HerE  */
+
+/* Carousel Header */
+.item img {
+  height: 515px;
+  background-size: cover;
+  background-position: center center;
+}
+.slider {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.owl-theme .owl-dots {
+  display: none;
+}
+.owl-theme span {
+  font-size: 80px;
+  color: #fff;
+}
+.owl-carousel .owl-nav button {
+  position: absolute;
+  top: 35%;
+}
+.owl-carousel .owl-nav button:hover {
+  color: none;
+}
+.owl-carousel .owl-nav .owl-prev {
+  left: 20px;
+}
+.owl-carousel .owl-nav .owl-next {
+  right: 20px;
+}
+/* End  */
+/* Section-1  */
+.section-1 {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #5fcf80;
+}
+.section-1 .green-img img {
+  width: 100%;
+  height: 400px;
+}
+.section-1 .think-green {
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  color: #5fcf80;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+}
+/* Section 2  */
+.section-2 {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/images/6848280.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 .deforestation-card {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.445);
+  padding: 1rem;
+  text-align: start;
+  transition: 0.8s ease;
+  border-radius: 10px;
+}
+.section-2 .deforestation-card:hover {
+  transform: scale(1.06);
+}
+/* Section 3 Styling  */
+.section-3 {
+  font-family: sans-serif;
+  background-color: #f6f7f6;
+  color: #5fcf80;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.counter-container {
+  margin: 30px 50px;
+  text-align: center;
+  transition: 0.8s ease;
+}
+.counter-container:hover {
+  transform: scale(1.08);
+}
+.counter {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+/* Ended  */
+/* Missions Section  */
+.mission {
+  width: 100%;
+  height: auto;
+}
+.mi-head{
+  width: 100%;
+  height: auto;
+  background-color: #85e6a2;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+.mi-head h2{
+  font-weight: bold;
+  color: #fff;
+}
+.mission .mission-card {
+  width: 100%;
+  height: 50vh;
+  margin: 1.5rem 0rem;
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.4s ease-in;
+  padding: 2rem 0rem;
+}
+.mission-card p {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+}
+.mission-card:hover {
+  border: 1px solid black;
+  transform: scale(1.03);
+}
+.mission .hr {
+  width: 100px;
+  height: 3px;
+  background-color: #5fcf80;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+.mission .mission-card .m-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ecf9f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #5fcf80;
+  margin: 1rem 0rem;
+}
+
+/* Media Queries  */
+
+@media (max-width: 1326px) {
+  .item img {
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .section-1 {
+    padding: 0rem 0rem;
+  }
+  .introduction p {
+    font-size: 18px;
+  }
+  .introduction h2 {
+    font-size: 22px;
+  }
+  .section-2 h4 {
+    font-size: 17px;
+  }
+  .item img {
+    height: 350px;
+  }
+  .owl-carousel .owl-nav button {
+    top: 25%;
+  }
+  .section-1 .green-img img {
+    height: 370px;
+  }
+}
+
+@media (max-width: 856px) {
+  .item img {
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .section-1 .green-img img {
+    height: 360px;
+  }
+  .section-2 {
+    height: 60vh;
+  }
+  .section-2 h4 {
+    font-size: 16px;
+    margin: 0 0;
+  }
+  .item img {
+    height: 300px;
+  }
+  .owl-carousel .owl-nav button {
+    top: 20%;
+  }
+  .section-1 .think-green {
+    padding: 10px 5px;
+  }
+  .mi-head{
+    padding: 0.5rem 0rem;
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+    height: 40px;
+  }
+  .deforestation-card {
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .section-1 .green-img img {
+    height: 300px;
+  }
+  .deforestation-card h4 {
+    font-size: 14px;
+  }
+  .section-2 h4 {
+    font-size: 14px;
+  }
+  .item img {
+    height: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .navbar .navbar-brand img {
+    width: 140px;
+    height: 38px;
+  }
+  .section-2 h4 {
+    font-size: 13px;
+  }
+  .item img {
+    height: 200px;
+  }
+  .deforestation-card h4 {
+    font-size: 13px;
+  }
+  .owl-carousel .owl-nav button {
+    top: 10%;
+  }
+  .section-1 .green-img img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar .navbar-brand img {
+    width: 130px;
+    height: 35px;
+  }
+  .section-2 h4 {
+    font-size: 11px;
+  }
+  .item img {
+    height: 150px;
+  }
+  .deforestation-card h4 {
+    font-size: 12px;
+  }
+  .owl-carousel .owl-nav button {
+    top: 3%;
+  }
+}
+@media (max-width: 310px) {
+  .navbar .navbar-brand img {
+    width: 125px;
+    height: 34px;
+  }
+  .deforestation-card h4 {
+    font-size: 7px;
+  }
+  .item img {
+    height: 145px;
+  }
+}
